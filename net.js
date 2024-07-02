@@ -62,11 +62,6 @@ function individualsNetSalary(individualsNetSalary){
    // Calculate net salary
    const individualsNetSalary = grossSalary - payee - nhifDeduction - nssfDeduction;
 
-   console.log(`Gross Salary: KES ${grossSalary.toFixed(2)}`);
-   console.log(`Payee (Tax): KES ${payee.toFixed(2)}`);
-   console.log(`NHIF Deduction: KES ${nhifDeduction.toFixed(2)}`);
-   console.log(`NSSF Deduction: KES ${nssfDeduction.toFixed(2)}`);
-   console.log(`Net Salary: KES ${netSalary.toFixed(2)}`);
  }
  
  calculateNetSalary();
